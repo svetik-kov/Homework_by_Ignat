@@ -1,0 +1,48 @@
+.someClass {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+}
+
+.button {
+    /* padding: 20px;*/
+    width: 80px;
+    height: 20px;
+    background: green;
+    color: goldenrod;
+    outline: none;
+    margin-right: 5px;
+
+}
+
+.buttonActive {
+    width: 80px;
+    height: 20px;
+    background: green;
+    color: goldenrod;
+    outline: none;
+    margin-right: 5px;
+    opacity: 0.5;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: normal;
+
+    color: darkcyan;
+}
+
+.low {
+    color: darkgreen;
+}
+
+.high {
+    color: darkred;
+}
+
+.middle {
+    color: orangered;
+}
