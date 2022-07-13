@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HW1 from "./p2-homeworks/h1/HW1";
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <HW1/>
     </div>
   );
 }
